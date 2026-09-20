@@ -3,7 +3,7 @@ import discord
 from discord import app_commands
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-OWNER_ID = 123456789012345678  # Replace this with YOUR Discord user ID
+OWNER_ID = 1373549788628254821  # Replace this with YOUR Discord user ID
 
 if not TOKEN:
     raise RuntimeError("DISCORD_TOKEN is not set.")
